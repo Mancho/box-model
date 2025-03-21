@@ -1,5 +1,8 @@
 body{
 	background-color: crimson;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #cajita{
@@ -7,5 +10,9 @@ body{
 	height: 300px;
 	border: solid red 5px;
 	border-radius: 50%;
-	margin: 40% auto;
+	transition: 2s;
+}
+
+#cajita:hover{
+	box-shadow: 0 0 50px white;
 }
